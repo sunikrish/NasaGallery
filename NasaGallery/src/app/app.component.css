@@ -1,0 +1,173 @@
+.mat-form-field--inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mat-form-field--inline .mat-form-field {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+   
+}
+.full-width {
+    width: 10%;
+  }
+
+  .equal-width{
+    width: 25%;
+  }
+.full-width-margin{
+    width: 20%;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+  .equal-width-margin{
+    width: 7%;
+    margin-left: 20px;
+    display: inline-block;
+  }
+  .equal-width-margin-button{
+    width: 7%;
+    margin-left: 25px;
+    text-align: center;
+  }
+
+.content {
+    padding: 16px;
+}
+container
+.content > mat-card {
+    width: 700px;
+}
+
+mat-toolbar {
+    justify-content: space-between;
+}
+
+.content {
+    padding: 16px;
+}
+
+.content > mat-card {
+    width: 200px;
+}
+
+.column-label {
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
+/* .img {
+    width: 100%;
+    margin-bottom: 18%;
+  } */
+  .card-picture {
+    width: 23%;
+    
+    margin-bottom: 2%;
+  }
+  .container {
+    /* min-height: 100%;
+    width: 100%; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align:  center;
+  }
+.formcontent{
+    text-align:  center;
+}
+
+  .search-form {
+    width: 90%;
+  }
+
+  .main-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .example-card {
+    max-width: 400px;
+  }
+
+  
+  .stickyBar {
+    position: sticky;
+    top: 0;
+  }
+
+  .sticky {
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+  }
+
+  .content {
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-y: scroll;
+  
+  }
+  
+  .content-mob {
+    position: absolute;
+    top: 113px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    overflow-y: scroll;
+  
+  }
+  
+  .example-card {
+    max-width: 320px;
+    margin: 0px 5px 5px 0px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg');
+    background-size: cover;
+  }
+  
+  mat-drawer {
+  
+    position: fixed;
+    background-color: rgb(236, 236, 236);
+  }
+  
+  .example-sidenav-content:first-child {
+    margin: 10px 5px 5px 5px;
+    text-align: center;
+  }
+  
+  .list-width {
+    width: 200px;
+  
+  }
+  
+  .list-item:hover {
+    background-color: rgba(83, 83, 83, 0.178);
+    cursor: pointer;
+  }
+  
+  .logo {
+    padding: 0px 5px;
+    font-size: 20px;
+  }
+
+  mat-card img{
+    height: 350px;
+    width: 350px;
+  }
+
+ 
+ 
